@@ -1,14 +1,3 @@
-# Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
 ### Primary
 
 - Light red: hsl(0, 100%, 67%)
@@ -23,8 +12,6 @@ The designs were created to the following widths:
 
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
 - Persian blue (circle): hsla(241, 72%, 46%, 0)
-
-
 
 ### Neutral
 

@@ -309,3 +309,14 @@ footer a {
     display: none;
   }
 }
+
+@media (max-width: 400px) {
+  .results {
+    height: 370px;
+    width: 390px;
+  }
+
+  .summary h2 {
+    padding: 0px 50px;
+  }
+}

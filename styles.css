@@ -223,3 +223,89 @@ footer {
 footer a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 500px) {
+  body {
+    background: #fff;
+    place-items: start;
+    margin: auto;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    box-shadow: none;
+  }
+
+  .results {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 394px;
+    width: 415px;
+  }
+
+  .results h2 {
+    font-size: 18px;
+    margin: 24px 0px;
+  }
+
+  .number-results {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+  }
+
+  .container {
+    padding-top: 15px;
+  }
+
+  .result {
+    font-size: 56px;
+  }
+
+  .total {
+    font-size: 16px;
+  }
+
+  .description-results {
+    height: 134px;
+    width: 260px;
+    margin: 24px auto 40px;
+  }
+
+  .word {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .summary h2 {
+    font-size: 18px;
+    padding: 0px 70px;
+  }
+
+  ul {
+    margin: 24px auto;
+    padding: 0px;
+  }
+
+  .categoryA-title,
+  .categoryB-title,
+  .categoryC-title,
+  .categoryD-title {
+    font-size: 16px;
+  }
+
+  .outcome {
+    font-size: 16px;
+  }
+
+  footer {
+    display: none;
+  }
+}
